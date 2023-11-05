@@ -1,0 +1,330 @@
+/** @format */
+
+@keyframes colors {
+  10% {
+    background: linear-gradient(
+      #1d2252,
+      #303e9b,
+      #4153b6,
+      #2e76c9,
+      #2ea5c9,
+      #2ec9bc,
+      #2ec9bc,
+      #2ec9bc,
+      #2ec9bc,
+      #2ec9bc,
+      #4db456,
+      #559c4c,
+      #478a3e,
+      #a36c25,
+      #9e7641
+    );
+  }
+  20% {
+    background: linear-gradient(
+      #121533,
+      #232d70,
+      #283474,
+      #235691,
+      #23748d,
+      #229187,
+      #229187,
+      #229187,
+      #229187,
+      #229187,
+      #2a612f,
+      #30572b,
+      #254620,
+      #5f4017,
+      #42321c
+    );
+  }
+  30% {
+    background: linear-gradient(
+      #070814,
+      #0d1027,
+      #141a3a,
+      #122c49,
+      #113742,
+      #124945,
+      #124945,
+      #124945,
+      #124945,
+      #124945,
+      #19381b,
+      #1b3018,
+      #162913,
+      #38260e,
+      #1f170d
+    );
+  }
+  40% {
+    background: linear-gradient(
+      #000000,
+      #070814,
+      #0a0d1d,
+      #0b1a2b,
+      #0a1f25,
+      #071d1b,
+      #071d1b,
+      #071d1b,
+      #071d1b,
+      #071d1b,
+      #0e2010,
+      #101d0f,
+      #0d180b,
+      #201608,
+      #140f09
+    );
+  }
+  45% {
+    background: linear-gradient(
+      #000000,
+      #030308,
+      #04050a,
+      #050c14,
+      #061316,
+      #041110,
+      #041110,
+      #041110,
+      #041110,
+      #041110,
+      #060e07,
+      #091109,
+      #091108,
+      #110c04,
+      #0c0905
+    );
+  }
+  55% {
+    background: linear-gradient(
+      #000000,
+      #030308,
+      #04050a,
+      #050c14,
+      #061316,
+      #041110,
+      #041110,
+      #041110,
+      #041110,
+      #041110,
+      #060e07,
+      #091109,
+      #091108,
+      #110c04,
+      #0c0905
+    );
+  }
+  60% {
+    background: linear-gradient(
+      #000000,
+      #070814,
+      #0a0d1d,
+      #0b1a2b,
+      #0a1f25,
+      #071d1b,
+      #071d1b,
+      #071d1b,
+      #071d1b,
+      #071d1b,
+      #0e2010,
+      #101d0f,
+      #0d180b,
+      #201608,
+      #140f09
+    );
+  }
+  70% {
+    background: linear-gradient(
+      #070814,
+      #0d1027,
+      #141a3a,
+      #122c49,
+      #113742,
+      #124945,
+      #124945,
+      #124945,
+      #124945,
+      #124945,
+      #19381b,
+      #1b3018,
+      #162913,
+      #38260e,
+      #1f170d
+    );
+  }
+  80% {
+    background: linear-gradient(
+      #121533,
+      #232d70,
+      #283474,
+      #235691,
+      #23748d,
+      #229187,
+      #229187,
+      #229187,
+      #229187,
+      #229187,
+      #2a612f,
+      #30572b,
+      #254620,
+      #5f4017,
+      #42321c
+    );
+  }
+  90% {
+    background: linear-gradient(
+      #1d2252,
+      #303e9b,
+      #4153b6,
+      #2e76c9,
+      #2ea5c9,
+      #2ec9bc,
+      #2ec9bc,
+      #2ec9bc,
+      #2ec9bc,
+      #2ec9bc,
+      #4db456,
+      #559c4c,
+      #478a3e,
+      #a36c25,
+      #9e7641
+    );
+  }
+  100% {
+    background: linear-gradient(
+      #1d2252,
+      #303e9b,
+      #4153b6,
+      #2e76c9,
+      #2ea5c9,
+      #2ec9bc,
+      #2ec9bc,
+      #2ec9bc,
+      #2ec9bc,
+      #2ec9bc,
+      #4db456,
+      #559c4c,
+      #478a3e,
+      #a36c25,
+      #9e7641
+    );
+  }
+}
+@keyframes spin {
+  10% {
+    transform: rotate(0deg);
+  }
+  45% {
+    transform: rotate(180deg);
+  }
+  55% {
+    transform: rotate(180deg);
+  }
+  90% {
+    transform: rotate(360deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+@keyframes twinkle {
+  0% {
+    opacity: 0;
+  }
+  10% {
+    opacity: 0.7;
+  }
+  53% {
+    opacity: 0.7;
+  }
+  55% {
+    opacity: 0.7;
+  }
+  98% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+@keyframes treeGrows {
+  0% {
+    transform: scale(0.5);
+  }
+  15% {
+    transform: scale(1);
+  }
+  25% {
+    transform: scale(1);
+  }
+  40% {
+    transform: scale(1.5);
+  }
+  50% {
+    transform: scale(1.5);
+  }
+  65% {
+    transform: scale(2);
+  }
+  75% {
+    transform: scale(2);
+  }
+  90% {
+    transform: scale(2.5);
+  }
+  100% {
+    transform: scale(2.5);
+  }
+}
+@keyframes treeFadesOut {
+  0% {
+    opacity: 0;
+  }
+  5% {
+    opacity: 1;
+  }
+  45% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@keyframes textShowUp {
+  0% {
+    opacity: 0;
+  }
+  5% {
+    opacity: 0;
+  }
+  45% {
+    opacity: 0;
+  }
+  90% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@keyframes textFadeOut {
+  0% {
+    opacity: 0;
+  }
+  5% {
+    opacity: 0;
+  }
+  45% {
+    opacity: 0;
+  }
+  90% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}

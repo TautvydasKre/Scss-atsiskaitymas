@@ -1,0 +1,54 @@
+/** @format */
+
+@use "index" as *;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: $bg-collor;
+}
+.box {
+  height: 25em;
+  width: 16.8em;
+  background: $bg-gradient;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  top: 50%;
+  left: 50%;
+  z-index: 1;
+  overflow: hidden;
+  border-top-left-radius: $border-top-left-radius;
+  border-top-right-radius: $border-top-right-radius;
+  border-bottom-right-radius: $border-bottom-right-radius;
+  border-bottom-left-radius: $border-bottom-left-radius;
+  animation: colors infinite 12s forwards;
+}
+.spinner {
+  height: 28.12em;
+  width: 28.12em;
+  border-radius: $border-radius;
+  position: absolute;
+  top: 8.75em;
+  left: -5.62em;
+  animation: spin 12s infinite forwards;
+}
+.txt {
+  margin-top: 3em;
+  position: relative;
+  color: $color;
+  text-align: center;
+  font-size: 50px;
+  font-weight: bold;
+  animation: textShowUp 12s infinite linear, textFadeOut 12s infinite;
+  z-index: 3;
+}
+@media screen and (max-width: $media-sm) {
+  .txt {
+    margin-top: 0;
+  }
+}
+@import "sun&moon";
+@import "tree";
+@import "grass";

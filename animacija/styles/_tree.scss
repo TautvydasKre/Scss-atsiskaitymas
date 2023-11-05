@@ -1,0 +1,46 @@
+/** @format */
+.tree {
+  position: absolute;
+  bottom: 0;
+  left: 8em;
+  width: 6px;
+  height: 80px;
+  background-color: #312109;
+  transform-origin: bottom;
+
+  &__leaf {
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    background-color: #267706;
+    border: 0;
+    border-top-right-radius: 100%;
+    border-bottom-left-radius: 100%;
+  }
+  &__leaf--top-left {
+    top: -15px;
+    left: -20px;
+    width: 20px;
+    height: 20px;
+  }
+  &__leaf--top-right {
+    top: -15px;
+    left: 5px;
+    width: 20px;
+    height: 20px;
+    transform: rotate(90deg);
+  }
+  &__leaf--left {
+    top: 10px;
+    left: -30px;
+  }
+  &__leaf--right {
+    top: 20px;
+    right: -30px;
+    transform: rotate(90deg);
+  }
+}
+.tree--1 {
+  left: 50%;
+  animation: treeGrows 12s infinite linear, treeFadesOut 24s;
+}
