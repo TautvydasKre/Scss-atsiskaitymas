@@ -1,9 +1,11 @@
 /** @format */
 /** @format */
 /** @format */
+/** @format */
 * {
   padding: 0;
   margin: 0;
+  box-sizing: border-box;
 }
 
 body {
@@ -35,12 +37,10 @@ body {
 #box {
   display: none;
 }
-
 #box:checked ~ .navbar div {
   transform: translate(0, 0);
   transition: transform 1s ease-out;
 }
-
 #box:checked + label {
   background-color: #272b1f;
   transition: background-color 1s;
@@ -73,7 +73,7 @@ label {
   height: 70px;
   display: flex;
   align-items: center;
-  justify-content: end;
+  justify-content: flex-end;
   background-color: #272b1f;
   transition: background-color 0.5s;
   padding-right: 10px;
