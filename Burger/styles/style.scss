@@ -52,7 +52,7 @@ form {
         .burgers {
           transform: rotateZ(360deg);
           transition: all 1s;
-          .bg1 {
+          .burger_1 {
             transform: translateY(17px) rotateZ(-45deg);
             transform-origin: center;
             transition: transform 0.5s;
@@ -62,11 +62,11 @@ form {
     }
   }
 }
-.bg2 {
+.burger_2 {
   opacity: 0;
   transition: opacity 1s;
 }
-.bg3 {
+.burger_3 {
   transform: translateY(-17px) rotateZ(45deg);
   transform-origin: center;
   transition: transform 0.5s;
